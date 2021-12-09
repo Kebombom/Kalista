@@ -106,21 +106,26 @@ body
 	background-color: rgba(01, 08, 13, 0.6);
 	border: solid #504830 1px;
 }
-.contenido-informacion p
-{
-	text-align: center;
-	margin-bottom: 30px;
-}
 .iconos-parrafos
 {
 	border-top: solid #504830 1px;
 	padding-top: 20px;
 	display: flex;
 	justify-content: space-evenly;
+	text-align: center;
 }
 .contenido-informacion img
 {
 	width: 100px;
+}
+.parrafo-1-info
+{
+	text-align: left;
+	padding-bottom: 40px;
+}
+.icono-text-1
+{
+	padding-bottom: 30px;
 }
 .icono-1
 {
@@ -135,7 +140,7 @@ body
 .icono-text-2
 {
 	padding-top: 42px;
-
+	padding-bottom: 30px;
 }
 .icono-text-2-0
 {
@@ -160,7 +165,8 @@ body
 		width: 90%;
 		height: 75%;
 	}
-	.icono-1
+	.parrafo-1-info
 	{
-		padding-top: -60px;
+		text-align: left;
+		padding-bottom: 10%;
 	}
