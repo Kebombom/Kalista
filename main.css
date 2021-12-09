@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap");
+::-webkit-scrollbar 
+{
+   
+    display: none;
+}
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+	font-family: "open sans";
+	color: white;
+}
+.banner
+{
+	width: 100%;
+	height: 650px;
+	display: flex;
+	color: white;
+	background-image: url(https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/2/2d/Skin_Splash_Classic_Kalista.jpg/revision/latest/scale-to-width-down/1000?cb=20191212200705.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.contenido-banner
+{
+	background-color: rgba(0, 0, 0, 0.3);
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.centro-banner
+{
+	width: 100%;
+	text-align: center;
+}
+.banner h1
+{
+	font-family: verdana;
+	font-size:  70px;
+	margin-top: 210px;
+}
+.banner p
+{
+	font-size: 25px;
+}
+								.banner .centro-banner a
+								{
+									text-align: center;
+									text-decoration: none;
+									padding: 15px;
+									color: white;
+									border: 2px solid white;
+									border-radius: 5px;
+									margin-top: 10px;
+									transition: all 300ms;
+								}
+								.banner .centro-banner a:hover
+								{
+											background-color: white;
+									color: #1cc3fa;
+								}
+.hamburguesa-banner
+{
+	width: cover;
+	height: 50px;
+	background-color: rgba(0, 0, 0, 0.3);
+	text-align: right;
+	padding-right: 30px;
+	padding-top: 15px;
+}
+.banner .hamburguesa-banner a
+{
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+
+}
+.banner .hamburguesa-banner a:hover
+{
+	color: #1cc3fa;
+}
+.informacion
+{
+	width: 100%;
+	height: 550px;
+	background-color: #0a0a0c;
+}
+.titulo
+{
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 30px;
+	color: white;
+}
+.contenido-informacion
+{
+	padding: 7%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	height: 400px;
+	background-color: rgba(01, 08, 13, 0.6);
+	border: solid #504830 1px;
+}
+.contenido-informacion p
+{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.iconos-parrafos
+{
+	border-top: solid #504830 1px;
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-evenly;
+}
+.contenido-informacion img
+{
+	width: 100px;
+}
+.icono-1
+{
+	padding-top: 40px;
+}
+.icono-text-1-0
+{
+	margin-top: -30px;
+	font-family: arial;
+	color: #cbaa59;
+}
+.icono-text-2
+{
+	padding-top: 42px;
+
+}
+.icono-text-2-0
+{
+	margin-top: -30px;
+	font-family: arial;
+	color: #cbaa59;
+}
+@media screen and (max-width: 360px)
+{
+	.hamburguesa-banner
+	{
+		text-align: center;
+		padding-right: 0px;
+	}
+	.banner
+	{
+		background-position: 80% 100%;
+		background-image: url(https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/5/59/Skin_Splash_Blood_Moon_Kalista.jpg/revision/latest/scale-to-width-down/1000?cb=20191212200743.jpg);
+	}
+	.contenido-informacion
+	{
+		width: 90%;
+		height: 75%;
+	}
