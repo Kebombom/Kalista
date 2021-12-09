@@ -143,7 +143,7 @@ body
 	font-family: arial;
 	color: #cbaa59;
 }
-@media screen and (max-width: 360px)
+@media screen and (max-width: 700px)
 {
 	.hamburguesa-banner
 	{
@@ -159,4 +159,8 @@ body
 	{
 		width: 90%;
 		height: 75%;
+	}
+	.icono-1
+	{
+		padding-top: -60px;
 	}
